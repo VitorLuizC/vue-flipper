@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bili"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/VitorLuizC/vue-flipper/issues"
   },
-  "homepage": "https://github.com/VitorLuizC/vue-flipper#readme"
+  "homepage": "https://github.com/VitorLuizC/vue-flipper#readme",
+  "devDependencies": {
+    "bili": "^3.4.2",
+    "rollup-plugin-vue": "^4.3.2",
+    "stylus": "^0.54.5",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17"
+  }
 }
