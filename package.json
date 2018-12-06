@@ -1,0 +1,30 @@
+{
+  "name": "vue-flipper",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorLuizC/vue-flipper.git"
+  },
+  "keywords": [
+    "vue-flipper",
+    "vue-flip",
+    "flip",
+    "vue-component",
+    "vue"
+  ],
+  "author": {
+    "url": "https://vitorluizc.github.io/",
+    "name": "Vitor Luiz Cavalcanti",
+    "email": "vitorluizc@outlook.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VitorLuizC/vue-flipper/issues"
+  },
+  "homepage": "https://github.com/VitorLuizC/vue-flipper#readme"
+}
