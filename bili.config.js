@@ -4,6 +4,7 @@ const vue = require('rollup-plugin-vue').default;
 const autoprefixer = require('autoprefixer');
 
 module.exports = {
+  js: 'buble',
   input: 'src/Flipper.vue',
   format: ['es', 'cjs', 'umd'],
   plugins: [
