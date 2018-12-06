@@ -1,58 +1,62 @@
+<template>
+  <div
+    v-on="$listeners"
+    v-bind="$attrs"
+    :class="['Flipper', { 'Flipper--flipped': flipped }]"
+    :style="styles.wrapper"
+  >
+    <div
+      class="Flipper__face Flipper__face--front"
+      :style="styles.face"
+    >
+      <slot name="front" />
+    </div>
+    <div
+      class="Flipper__face Flipper__face--back"
+      :style="styles.face"
+    >
+      <slot name="back" />
+    </div>
+  </div>
+</template>
+
 <script>
+import { isCSSLength, isCSSTime } from './predicates';
+
 export default {
-  functional: true,
+  name: 'Flipper',
   props: {
     flipped: Boolean,
     width: {
       type: String,
-      default: "100%"
+      default: '100%',
+      validator: isCSSLength
     },
     height: {
       type: String,
-      default: "100%"
+      default: '100%',
+      validator: isCSSLength
     },
     duration: {
       type: String,
-      default: "0.5s"
+      default: '0.5s',
+      validator: isCSSTime
     },
     transition: {
       type: String,
-      default: "ease-in"
+      default: 'ease-in'
     }
   },
-  render(h, context) {
-    const flipped = Boolean(context.props.flipped);
-    const children = context.slots();
-
-    const wrapper = () => ({
-      on: context.data.on,
-      attrs: context.data.attrs,
-      class: [
-        "Flipper",
-        context.data.class,
-        context.data.staticClass,
-        { "Flipper--flipped": flipped }
-      ],
-      style: {
-        width: context.props.width,
-        height: context.props.height
-      }
-    });
-
-    const face = (pos) => ({
-      class: ["Flipper__face", "Flipper__face--" + pos],
-      style: {
-        transitionDuration: context.props.duration,
-        transitionTimingFunction: context.props.transition
-      }
-    });
-
-    return (
-      <div {...wrapper()}>
-        <div {...face("front")}>{children.front}</div>
-        <div {...face("back")}>{children.back}</div>
-      </div>
-    );
+  computed: {
+    styles () {
+      return {
+        wrapper: { width: this.width, height: this.height },
+        face: {
+          transitionDuration: this.duration,
+          transitionTimingFunction: this.transition
+        }
+      };
+    }
   }
 };
 </script>
