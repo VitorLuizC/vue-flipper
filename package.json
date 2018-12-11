@@ -37,7 +37,7 @@
     "bili": "^3.4.2",
     "rollup-plugin-vue": "^4.3.2",
     "stylus": "^0.54.5",
-    "vue": "^2.5.17",
-    "vue-template-compiler": "^2.5.17"
+    "vue": "^2.5.20",
+    "vue-template-compiler": "^2.5.20"
   }
 }
