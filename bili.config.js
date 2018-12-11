@@ -7,6 +7,7 @@ module.exports = {
   js: 'buble',
   input: 'src/Flipper.vue',
   format: ['es', 'cjs', 'umd'],
+  moduleName: 'VueFlipper',
   plugins: [
     vue({
       css: false,
