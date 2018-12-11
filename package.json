@@ -2,7 +2,12 @@
   "name": "vue-flipper",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "cdn": "dist/vue-flipper.js",
+  "main": "dist/vue-flipper.cjs.js",
+  "unpkg": "dist/vue-flipper.js",
+  "module": "dist/vue-flipper.es.js",
+  "jsdelivr": "dist/vue-flipper.js",
+  "umd:main": "dist/vue-flipper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "bili"

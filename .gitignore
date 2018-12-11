@@ -14,3 +14,6 @@ npm-lockfile.json
 # Log's files.
 *.log
 *.log.*
+
+# Distribution files.
+dist/
