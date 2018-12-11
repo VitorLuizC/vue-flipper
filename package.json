@@ -8,6 +8,7 @@
   "module": "dist/vue-flipper.es.js",
   "jsdelivr": "dist/vue-flipper.js",
   "umd:main": "dist/vue-flipper.js",
+  "files": ["dist/"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "bili"
