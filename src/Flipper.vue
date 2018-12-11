@@ -63,7 +63,6 @@ export default {
 
 <style lang="stylus">
 .Flipper
-  overflow: hidden
   position: relative
   perspective: 1000px
 
@@ -74,10 +73,11 @@ export default {
     right: 0
     bottom: 0
     display: block
-    overflow: hidden
+    transform-style: preserve-3d
     backface-visibility: hidden
 
   &__face--back
+  &--flipped &__face--front
     transform: rotateY(180deg)
     visibility: hidden
 
@@ -85,8 +85,4 @@ export default {
     & ^[0]__face--back
       transform: rotateY(360deg)
       visibility: visible
-
-    & ^[0]__face--front
-      transform: rotateY(180deg)
-      visibility: hidden
 </style>
