@@ -4,7 +4,7 @@
 ![Library size](https://badgen.net/bundlephobia/minzip/vue-flipper)
 ![Dependencies](https://badgen.net/david/dep/VitorLuizC/vue-flipper)
 
-A component to create flip transitions and easily control them.
+A component to flip elements with a nice transition.
 
 <p align="center">
   <img
@@ -19,6 +19,8 @@ A component to create flip transitions and easily control them.
 - :art: CSS uses Stylus + BEM + Autoprefixer
 
 - :package: There are ESM, CommonJS and UMD distributions
+
+You can se by youself on [Codepen](https://codepen.io/VitorLuizC/pen/GPJEEN) or [CodeSandbox](https://codesandbox.io/s/m7lowxvwm9).
 
 ## Installation
 

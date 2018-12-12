@@ -1,7 +1,7 @@
 {
   "name": "vue-flipper",
   "version": "1.0.0",
-  "description": "",
+  "description": "A component to flip elements with a nice transition.",
   "cdn": "dist/vue-flipper.js",
   "main": "dist/vue-flipper.cjs.js",
   "unpkg": "dist/vue-flipper.js",
