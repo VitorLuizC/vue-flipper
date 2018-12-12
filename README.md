@@ -1,7 +1,8 @@
 # vue-flipper
 
-![Library size](https://badgen.net/bundlephobia/minzip/vue-flipper)
 ![License](https://badgen.net/github/license/VitorLuizC/vue-flipper)
+![Library size](https://badgen.net/bundlephobia/minzip/vue-flipper)
+![Dependencies](https://badgen.net/david/dep/VitorLuizC/vue-flipper)
 
 A component to create flip transitions and easily control them.
 
