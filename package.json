@@ -1,6 +1,6 @@
 {
   "name": "vue-flipper",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "cdn": "dist/vue-flipper.js",
   "main": "dist/vue-flipper.cjs.js",
