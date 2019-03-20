@@ -3,6 +3,7 @@
 ![License](https://badgen.net/github/license/VitorLuizC/vue-flipper)
 ![Library size](https://badgen.net/bundlephobia/minzip/vue-flipper)
 ![Dependencies](https://badgen.net/david/dep/VitorLuizC/vue-flipper)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVitorLuizC%2Fvue-flipper.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FVitorLuizC%2Fvue-flipper?ref=badge_shield)
 
 A component to flip elements with a nice transition.
 
@@ -126,3 +127,6 @@ Vue.component('flipper', Flipper);
 ## License
 
 Released under [MIT License](./LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FVitorLuizC%2Fvue-flipper.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FVitorLuizC%2Fvue-flipper?ref=badge_large)
